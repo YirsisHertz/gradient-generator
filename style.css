@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2020/01/03/21/32/hoarfrost-4739176_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  padding: 5px 0;
+  background-color: rgba(65, 105, 225, 0.815);
+}
+
+.selection {
+  margin: 0 auto;
+  text-align: center;
+  padding: 6px;
+}
+
+.name {
+  display: inline-block;
+  margin: 0 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.selected {
+  height: 80vh;
+  background: linear-gradient(to right, #000000, #ffffff);
+  margin: 10px 0;
+}
+
+footer {
+  padding: 1rem;
+  background-color: rgba(65, 105, 225, 0.692 );
+}
